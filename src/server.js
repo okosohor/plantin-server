@@ -1,6 +1,6 @@
 require('dotenv').config();
 const express = require('express');
-const weatherRouter = require('./routes/weather');
+const weatherRouter = require('./routes/temperature');
 const cors = require("cors");
 
 
